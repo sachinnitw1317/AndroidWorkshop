@@ -3,7 +3,7 @@
 
     <string name="title_section1">Home</string>
     <string name="title_section2">Add</string>
-    <string name="title_section3">Act</string>
+    <string name="title_section3">Notes</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -14,4 +14,5 @@
     <string name="title_activity_splash">Splash</string>
 
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_notes">Notes</string>
 </resources>
