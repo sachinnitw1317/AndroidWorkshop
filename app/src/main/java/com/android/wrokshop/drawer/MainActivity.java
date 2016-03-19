@@ -2,6 +2,7 @@ package com.android.wrokshop.drawer;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -68,6 +69,16 @@ public class MainActivity extends ActionBarActivity
         else if(position==2){
             Intent I=new Intent(this,Notes.class);
             startActivity(I);
+        }
+        else if(position==3){
+            String url = "https://www.google.com";
+            Uri uri = Uri.parse(url);
+            Intent intent= new Intent(Intent.ACTION_VIEW,Uri.parse(url));
+            startActivity(intent);
+        }
+        else if(position==4){
+            Intent intent= new Intent(this,Camera.class);
+            startActivity(intent);
         }
     }
 

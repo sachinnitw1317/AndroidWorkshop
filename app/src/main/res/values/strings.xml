@@ -15,4 +15,7 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_notes">Notes</string>
+    <string name="title_section4">WEB</string>
+    <string name="title_section5">Camera</string>
+    <string name="title_activity_camera">Camera</string>
 </resources>
